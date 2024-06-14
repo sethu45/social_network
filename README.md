@@ -65,8 +65,7 @@ before running build command, change postgres detail in db name, username, passw
     ```sh
     docker-compose up
     ```
-
-
+    
 3.  **Run Migrate command in another cmd :**
     ```sh
     docker exec -it <container-name> /bin/bash 
@@ -90,5 +89,5 @@ before running build command, change postgres detail in db name, username, passw
 
 ## Postman Collection
 
-The Postman collection for the API endpoints can be found in the `postman_collection.json` file in the root directory.
+The Postman collection for the API endpoints can be found in the `SocialNetwork.postman_collection.json`.
 
